@@ -1,4 +1,4 @@
-package testTask.pages;
+package pages;
 
 import com.codeborne.selenide.ElementsCollection;
 

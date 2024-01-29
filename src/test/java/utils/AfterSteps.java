@@ -1,4 +1,4 @@
-package testTask.utils;
+package utils;
 
 import com.codeborne.selenide.Selenide;
 import io.cucumber.java.After;

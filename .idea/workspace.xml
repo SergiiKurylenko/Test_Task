@@ -4,29 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d987ebe-e5da-4596-896b-0d5a1e0b0c36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browsers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/testtask/pages/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/testtask/pages/DeviceDetailsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/testtask/pages/DeviceListPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/testtask/pages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/testtask/scenarios/choosePhone.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/testtask/steps/ChoosePhoneSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/testtask/utils/AfterSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/testtask/utils/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/testtask/utils/ScenarioContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
+    <list default="true" id="6d987ebe-e5da-4596-896b-0d5a1e0b0c36" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/RunCucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testTask/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testTask/pages/DeviceDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DeviceDetailsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testTask/pages/DeviceListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DeviceListPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testTask/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testTask/scenarios/choosePhone.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scenarios/choosePhone.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testTask/steps/ChoosePhoneSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ChoosePhoneSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testTask/utils/AfterSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/AfterSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testTask/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testTask/utils/ScenarioContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ScenarioContext.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,14 +52,22 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Cucumber Java.Feature: choosePhone.executor": "Run",
+    "Cucumber Java.Scenario: Wybranie telefonu z listy ofert (1).executor": "Run",
     "Cucumber Java.Scenario: Wybranie telefonu z listy ofert.executor": "Run",
     "Cucumber.js.Scenario: Wybranie telefonu z listy o....executor": "Run",
+    "Cucumber.js.choosePhone.feature.executor": "Run",
     "JUnit.MainPageTest.choosePhoneFromList.executor": "Run",
     "JUnit.MainPageTest.executor": "Run",
+    "JUnit.RunCucumberTest.executor": "Run",
+    "Maven.TestTask [clean].executor": "Run",
+    "Maven.TestTask [compile].executor": "Run",
+    "Maven.TestTask [org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile].executor": "Run",
+    "Maven.TestTask [test].executor": "Run",
+    "Maven.TestTask [validate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/skurylenko/Desktop/TestTask/src/test/java/org/testtask/scenarios",
     "node.js.detected.package.eslint": "true",
@@ -84,8 +82,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\skurylenko\Desktop\TestTask\src\test\java\org\testtask\scenarios" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: choosePhone">
+  <component name="RunManager" selected="JUnit.RunCucumberTest">
     <configuration name="Feature: choosePhone" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/org/testtask/scenarios/choosePhone.feature" />
@@ -94,6 +95,26 @@
       <module name="TestTask" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: choosePhone" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Wybranie telefonu z listy ofert (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/testTask/scenarios/choosePhone.feature" />
+      <option name="GLUE" value="testTask.steps testTask.utils" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="TestTask" />
+      <option name="NAME_FILTER" value="^Wybranie telefonu z listy ofert$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Wybranie telefonu z listy ofert$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Wybranie telefonu z listy ofert" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -125,51 +146,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RunCucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestTask" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.testtask.pages.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.testtask.Utils" />
-      <option name="MAIN_CLASS_NAME" value="org.testtask.utils.MainPageTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RunCucumberTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageTest.choosePhoneFromList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestTask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.testtask.pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.testtask.Utils" />
-      <option name="MAIN_CLASS_NAME" value="org.testtask.utils.MainPageTest" />
-      <option name="METHOD_NAME" value="choosePhoneFromList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Wybranie telefonu z listy o..." type="cucumber.js" factoryName="Cucumber.js" temporary="true">
-      <option name="myFilePath" value="$PROJECT_DIR$/src/test/java/org/testtask/scenarios/choosePhone.feature" />
-      <option name="myNameFilter" value="^Wybranie telefonu z listy ofert$" />
+    <configuration name="choosePhone.feature" type="cucumber.js" factoryName="Cucumber.js" temporary="true">
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/java/testTask/scenarios/choosePhone.feature" />
+      <option name="myNameFilter" />
       <option name="cucumberJsArguments" value="" />
       <option name="workingDirectory" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunCucumberTest" />
+        <item itemvalue="Cucumber Java.Scenario: Wybranie telefonu z listy ofert (1)" />
+        <item itemvalue="Cucumber.js.choosePhone.feature" />
         <item itemvalue="Cucumber Java.Feature: choosePhone" />
         <item itemvalue="Cucumber Java.Scenario: Wybranie telefonu z listy ofert" />
-        <item itemvalue="Cucumber.js.Scenario: Wybranie telefonu z listy o..." />
-        <item itemvalue="JUnit.MainPageTest" />
-        <item itemvalue="JUnit.MainPageTest.choosePhoneFromList" />
       </list>
     </recent_temporary>
   </component>
@@ -185,8 +190,17 @@
       <option name="presentableId" value="Default" />
       <updated>1706355454520</updated>
       <workItem from="1706355455584" duration="3100000" />
-      <workItem from="1706374990088" duration="27412000" />
+      <workItem from="1706374990088" duration="33476000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1706545400392</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706545400392</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,10 +211,31 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>

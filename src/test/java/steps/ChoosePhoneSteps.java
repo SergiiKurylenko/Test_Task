@@ -1,4 +1,4 @@
-package testTask.steps;
+package steps;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -6,12 +6,12 @@ import org.slf4j.LoggerFactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import testTask.pages.CartPage;
-import testTask.pages.DeviceDetailsPage;
-import testTask.pages.DeviceListPage;
-import testTask.pages.MainPage;
-import testTask.utils.Driver;
-import testTask.utils.ScenarioContext;
+import pages.CartPage;
+import pages.DeviceDetailsPage;
+import pages.DeviceListPage;
+import pages.MainPage;
+import utils.Driver;
+import utils.ScenarioContext;
 
 import static com.codeborne.selenide.CollectionCondition.size;
 import static com.codeborne.selenide.Condition.text;
@@ -46,28 +46,33 @@ public class ChoosePhoneSteps{
 
     @Then("Strona główna jest widoczna.")
     public void homepageIsVisible() {
+        logger.info("Verifying home page");
         assertEquals("Telefony, Tablety, Laptopy, Szybki Internet - Dołącz do T-Mobile", title());
         if(mainPage.acceptCookies.isDisplayed()) mainPage.acceptCookies.click();
     }
 
     @When("Z górnej belki wybierz {string}")
     public void chooseFromTopBar(String arg0) {
+        logger.info("Choosing from top bar: {}", arg0);
         mainPage.mainMenu.shouldBe(visible);
         mainPage.mainMenuChoose(arg0).hover();
     }
 
     @Then("Widoczna rozwijana lista")
     public void visibleDropdownList() {
+        logger.info("Verifying dropdown list");
         mainPage.dropDownMenu.shouldBe(visible);
     }
 
     @When("Kliknij {string} z kolumny {string}")
     public void clickFromColumn(String arg0, String arg1) {
+        logger.info("Clicking on {} from column: {}", arg0, arg1);
         mainPage.dropDownMenuChoose(arg1, arg0).shouldBe(visible).click();
     }
 
     @Then("Widoczna lista smartfonów {int} szt")
     public void visibleSmartphoneList(int arg0) {
+        logger.info("Verifying smartphone list");
         deviceListPage.deviceList.shouldHave(size(arg0));
     }
 
